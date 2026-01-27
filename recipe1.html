@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Mom's Lumpia Recipe</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+  
+        body {
+            background-color: lightyellow;
+            font-family: "Playfair Display", serif;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        h1, h2, h3 {
+            text-align: center;
+            color: darkred;
+            margin-bottom: 10px;
+        }
+
+        h1 { font-size: 45px; }
+        h2 { font-size: 32px; }
+        h3 { font-size: 26px; color: darkgreen; }
+
+ 
+        p {
+            position: relative;
+            top: 150px;
+            margin: 20px 40px;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+
+        .info-box {
+            background-color: lightyellow;
+            margin: 20px auto;
+            padding: 20px;
+            width: 85%;
+            border: 2px solid darkred;
+            border-radius: 12px;
+        }
+
+        .recipe-box {
+            background-color: #fff8e6;
+            margin: 20px auto;
+            padding: 20px;
+            width: 85%;
+            border: 2px solid orange;
+            border-radius: 12px;
+        }
+
+
+        .highlight {
+            background-color: yellow;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .img-border {
+            border: 4px solid darkred;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        #main-image {
+            position: relative;
+            bottom: 200px;
+            width: 420px;
+            left: 680px;
+            border: 6px solid gold;
+            border-radius: 15px;
+        }
+
+        a {
+            color: darkred;
+            font-size: 18px;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid sticky-top">
+<!---navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://lanetech.org/">Lane Tech</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+                </a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="recipe2.html">Bootstrap</a>
+                <a class="dropdown-item" href="recipe1.html">CSS Format</a>
+                <a class="dropdown-item" href="recipe.html">HTML Format</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+
+    <div class="info-box">
+        <h1 class="highlight"><b>My Mom's Lumpia Recipe</b></h1>
+        <hr>
+
+        <p>
+            Lumpia are a type of spring roll from <b>Filipino</b> cuisine, consisting of a thin<br>wrapper filled with savory 
+            or sweet ingredients like ground pork and vegetables. <br>They can be served fresh or deep-fried until crispy and 
+            are often enjoyed as an <br> appetizer or snack at gatherings.  
+            <br><br>
+            Lumpia has its origins in ancient China, introduced to the Philippines by Chinese <br> immigrants centuries ago. 
+            The name comes from the Hokkien words "lun" (moist) <br>and "pia" (pastry). Over time, it became a staple in 
+            Filipino cuisine.
+        </p>
+
+        <img id="main-image" src="media/lumpia.jpg" alt="lumpia">
+    </div>
+
+
+    <div class="recipe-box">
+        <h2 class="highlight"><b>Instructions</b></h2>
+        <ol>
+            <li>Combine all the filling ingredients in a bowl, then mix until well blended.</li>
+            <li>Wrap the mixture in egg roll wrappers or traditional lumpia wrappers.</li>
+            <li>Deep fry until brown and crispy.</li>
+        </ol>
+
+        <h3><b>Ingredients</b></h3>
+        <ul>
+            <li>50 pieces lumpia wrapper</li>
+            <li>3 cups cooking oil</li>
+        </ul>
+
+        <h3><i><u>Filling Ingredients</u></i></h3>
+        <ul>
+            <li>1 1/2 lbs ground pork</li>
+            <li>2 onions, minced</li>
+            <li>2 carrots, minced</li>
+            <li>1 1/2 tsp garlic powder</li>
+            <li>1 1/2 tsp garlic powder</li>
+            <li>1/2 cup parsley, chopped</li>
+            <li>1 1/2 tsp salt</li>
+            <li>1 tbsp sesame oil</li>
+            <li>2 eggs</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <p class="highlight" style="text-align:center;">Sources</p>
+
+    <a href="https://www.youtube.com/watch?v=BIarUjm4U-0" target="_blank">How to Make Lumpia Video</a><br>
+    <a href="https://www.tastingtable.com/1511068/lumpiang-shanghai-filipino-egg-roll-history/" target="_blank">History of Lumpia</a><br>
+    <a href="https://panlasangpinoy.com/filipino-lumpia-recipe/" target="_blank">Online Recipe</a>
+
+
+</body>
+</html>
